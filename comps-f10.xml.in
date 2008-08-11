@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+    <id>rpmfusion_nonfree-base</id>
+    <_name>Base (RPM Fusion Nonfree)</_name>
+    <_description>Repo files for RPM Fusion nonfree repo. </_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="default">rpmfusion-nonfree-release</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>rpmfusion_nonfree-games</id>
+    <_name>Games and Entertainment (RPM Fusion Nonfree)</_name>
+    <_description>Various ways to relax and spend your free time.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">d1x-full</packagereq>
+      <packagereq type="optional">d1x-shareware</packagereq>
+      <packagereq type="optional">doom-shareware</packagereq>
+      <packagereq type="optional">xrick</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>rpmfusion_nonfree-hardware-support</id>
+    <_name>Hardware Support (RPM Fusion Nonfree)</_name>
+    <_description>This group is a collection of tools for various hardware specific utilities.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">Cg</packagereq>
+    </packagelist>
+  </group>
+  <category>
+    <id>rpmfusion_nonfree</id>
+    <_name>RPM Fusion – Nonfree</_name>
+    <_description>RPM Fusion package add-on repository with nonfree software.</_description>
+    <grouplist>
+      <groupid>rpmfusion_nonfree-base</groupid>
+      <groupid>rpmfusion_nonfree-hardware-support</groupid>
+      <groupid>rpmfusion_nonfree-games</groupid>
+    </grouplist>
+  </category>
+</comps>
