@@ -21,6 +21,7 @@
       <packagereq type="optional">d1x-full</packagereq>
       <packagereq type="optional">d1x-shareware</packagereq>
       <packagereq type="optional">doom-shareware</packagereq>
+      <packagereq type="optional">ufoai</packagereq>
       <packagereq type="optional">xrick</packagereq>
     </packagelist>
   </group>
