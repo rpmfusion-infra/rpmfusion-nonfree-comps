@@ -35,6 +35,23 @@
       <packagereq type="optional">Cg</packagereq>
     </packagelist>
   </group>
+  <group>
+    <id>rpmfusion_nonfree-emulators</id>
+    <_name>Emulators (RPM Fusion Nonfree)</_name>
+    <_description>Various emulators for legacy computers and consoles.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">dega-sdl</packagereq>
+      <packagereq type="optional">dgen-sdl</packagereq>
+      <packagereq type="optional">e-uae</packagereq>
+      <packagereq type="optional">Frodo</packagereq>
+      <packagereq type="optional">Frodo-gui</packagereq>
+      <packagereq type="optional">gens</packagereq>
+      <packagereq type="optional">xcpc</packagereq>
+      <packagereq type="optional">yapeSDL</packagereq>
+    </packagelist>
+  </group>
   <category>
     <id>rpmfusion_nonfree</id>
     <_name>RPM Fusion – Nonfree</_name>
@@ -43,6 +60,7 @@
       <groupid>rpmfusion_nonfree-base</groupid>
       <groupid>rpmfusion_nonfree-hardware-support</groupid>
       <groupid>rpmfusion_nonfree-games</groupid>
+      <groupid>rpmfusion_nonfree-emulators</groupid>
     </grouplist>
   </category>
 </comps>
