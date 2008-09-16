@@ -36,6 +36,17 @@
     </packagelist>
   </group>
   <group>
+    <id>rpmfusion_nonfree-misc-tools</id>
+    <_name>Miscellaneous command line tools (RPM Fusion Nonfree)</_name>
+    <_description>Miscellaneous command line tools</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">jad</packagereq>
+      <packagereq type="default">unrar</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>rpmfusion_nonfree-emulators</id>
     <_name>Emulators (RPM Fusion Nonfree)</_name>
     <_description>Various emulators for legacy computers and consoles.</_description>
@@ -58,9 +69,10 @@
     <_description>RPM Fusion package add-on repository with nonfree software.</_description>
     <grouplist>
       <groupid>rpmfusion_nonfree-base</groupid>
+      <groupid>rpmfusion_nonfree-emulators</groupid>
       <groupid>rpmfusion_nonfree-hardware-support</groupid>
       <groupid>rpmfusion_nonfree-games</groupid>
-      <groupid>rpmfusion_nonfree-emulators</groupid>
+      <groupid>rpmfusion_nonfree-misc-tools</groupid>
     </grouplist>
   </category>
 </comps>
