@@ -59,13 +59,20 @@
       <packagereq type="optional">Frodo</packagereq>
       <packagereq type="optional">Frodo-gui</packagereq>
       <packagereq type="optional">gens</packagereq>
+      <packagereq type="optional">mednafen</packagereq>
       <packagereq type="optional">qmc2</packagereq>
+      <packagereq type="optional">sdlmame</packagereq>
       <packagereq type="optional">sdlmame-data-artwork</packagereq>
       <packagereq type="optional">sdlmame-data</packagereq>
       <packagereq type="optional">sdlmame-data-roms</packagereq>
       <packagereq type="optional">sdlmame-data-samples</packagereq>
-      <packagereq type="optional">sdlmame</packagereq>
+      <packagereq type="optional">sdlmame-debug</packagereq>
+      <packagereq type="optional">sdlmame-ldplayer</packagereq>
+      <packagereq type="optional">sdlmame-tools</packagereq>
       <packagereq type="optional">sdlmess</packagereq>
+      <packagereq type="optional">sdlmess-data</packagereq>
+      <packagereq type="optional">sdlmess-debug</packagereq>
+      <packagereq type="optional">sdlmess-tools</packagereq>
       <packagereq type="optional">xcpc</packagereq>
       <packagereq type="optional">yapeSDL</packagereq>
     </packagelist>
