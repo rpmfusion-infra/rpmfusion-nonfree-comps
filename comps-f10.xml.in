@@ -33,6 +33,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">Cg</packagereq>
+      <packagereq type="optional">ogre-cg</packagereq>
     </packagelist>
   </group>
   <group>
