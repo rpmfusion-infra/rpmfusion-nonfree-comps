@@ -2,18 +2,18 @@
 <!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
   <group>
-    <id>rpmfusion_nonfree-base</id>
-    <_name>Base (RPM Fusion Nonfree)</_name>
-    <_description>Repo files for RPM Fusion nonfree repo. </_description>
+    <id>core</id>
+    <_name>Core</_name>
+    <_description>Smallest possible installation</_description>
     <default>true</default>
-    <uservisible>true</uservisible>
+    <uservisible>false</uservisible>
     <packagelist>
-      <packagereq type="default">rpmfusion-nonfree-release</packagereq>
+      <packagereq type="mandatory">rpmfusion-nonfree-release</packagereq>
     </packagelist>
   </group>
   <group>
-    <id>rpmfusion_nonfree-games</id>
-    <_name>Games and Entertainment (RPM Fusion Nonfree)</_name>
+    <id>games</id>
+    <_name>Games and Entertainment</_name>
     <_description>Various ways to relax and spend your free time.</_description>
     <default>false</default>
     <uservisible>true</uservisible>
@@ -23,37 +23,6 @@
       <packagereq type="optional">doom-shareware</packagereq>
       <packagereq type="optional">ufoai</packagereq>
       <packagereq type="optional">xrick</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>rpmfusion_nonfree-hardware-support</id>
-    <_name>Hardware Support (RPM Fusion Nonfree)</_name>
-    <_description>This group is a collection of tools for various hardware specific utilities.</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">Cg</packagereq>
-      <packagereq type="optional">ogre-cg</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>rpmfusion_nonfree-misc-tools</id>
-    <_name>Miscellaneous command line tools (RPM Fusion Nonfree)</_name>
-    <_description>Miscellaneous command line tools</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
-      <packagereq type="optional">jad</packagereq>
-      <packagereq type="default">unrar</packagereq>
-    </packagelist>
-  </group>
-  <group>
-    <id>rpmfusion_nonfree-emulators</id>
-    <_name>Emulators (RPM Fusion Nonfree)</_name>
-    <_description>Various emulators for legacy computers and consoles.</_description>
-    <default>false</default>
-    <uservisible>true</uservisible>
-    <packagelist>
       <packagereq type="optional">dega-sdl</packagereq>
       <packagereq type="optional">dgen-sdl</packagereq>
       <packagereq type="optional">e-uae</packagereq>
@@ -78,16 +47,26 @@
       <packagereq type="optional">yapeSDL</packagereq>
     </packagelist>
   </group>
-  <category>
-    <id>rpmfusion_nonfree</id>
-    <_name>RPM Fusion – Nonfree</_name>
-    <_description>RPM Fusion package add-on repository with nonfree software.</_description>
-    <grouplist>
-      <groupid>rpmfusion_nonfree-base</groupid>
-      <groupid>rpmfusion_nonfree-emulators</groupid>
-      <groupid>rpmfusion_nonfree-hardware-support</groupid>
-      <groupid>rpmfusion_nonfree-games</groupid>
-      <groupid>rpmfusion_nonfree-misc-tools</groupid>
-    </grouplist>
-  </category>
+  <group>
+    <id>hardware-support</id>
+    <_name>Hardware Support</_name>
+    <_description>This group is a collection of tools for various hardware specific utilities.</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">Cg</packagereq>
+      <packagereq type="optional">ogre-cg</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>system-tools</id>
+    <_name>System Tools</_name>
+    <_description>This group is a collection of various tools for the system, such as the client for connecting to SMB shares and tools to monitor network traffic.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">jad</packagereq>
+      <packagereq type="default">unrar</packagereq>
+    </packagelist>
+  </group>
 </comps>
