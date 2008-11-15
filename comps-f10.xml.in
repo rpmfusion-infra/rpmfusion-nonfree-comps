@@ -43,8 +43,20 @@
       <packagereq type="optional">sdlmess-data</packagereq>
       <packagereq type="optional">sdlmess-debug</packagereq>
       <packagereq type="optional">sdlmess-tools</packagereq>
+      <packagereq type="optional">vice</packagereq>
       <packagereq type="optional">xcpc</packagereq>
       <packagereq type="optional">yapeSDL</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>sound-emulators</id>
+    <_name>Sound Emulators</_name>
+    <_description>Sound generating sound chip emulators.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">sidplay</packagereq>
+      <packagereq type="optional">uade</packagereq>
     </packagelist>
   </group>
   <group>
