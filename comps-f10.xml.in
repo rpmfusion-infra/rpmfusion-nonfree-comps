@@ -68,6 +68,11 @@
     <packagelist>
       <packagereq type="optional">Cg</packagereq>
       <packagereq type="optional">ogre-cg</packagereq>
+      <packagereq type="optional">xorg-x11-drv-fglrx</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia-173xx</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia-96xx</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia-beta</packagereq>
     </packagelist>
   </group>
   <group>
