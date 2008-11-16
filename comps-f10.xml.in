@@ -49,10 +49,10 @@
     </packagelist>
   </group>
   <group>
-    <id>sound-emulators</id>
-    <_name>Sound Emulators</_name>
-    <_description>Sound generating sound chip emulators.</_description>
-    <default>false</default>
+    <id>sound-and-video</id>
+    <_name>Sound and Video</_name>
+    <_description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</_description>
+    <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">sidplay</packagereq>
@@ -78,7 +78,9 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">jad</packagereq>
+      <packagereq type="default">lha</packagereq>
       <packagereq type="default">unrar</packagereq>
+      <packagereq type="optional">unace</packagereq>
     </packagelist>
   </group>
 </comps>
