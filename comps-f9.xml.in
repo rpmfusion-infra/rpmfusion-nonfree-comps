@@ -18,6 +18,7 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type="optional">bsnes</packagereq>
       <packagereq type="optional">d1x-full</packagereq>
       <packagereq type="optional">d1x-shareware</packagereq>
       <packagereq type="optional">doom-shareware</packagereq>
