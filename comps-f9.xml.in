@@ -48,6 +48,18 @@
     </packagelist>
   </group>
   <group>
+    <id>fonts</id>
+    <name>Fonts</name>
+    <description>Fonts packages for rendering text on the desktop.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">larabie-fonts-common</packagereq>
+      <packagereq type="optional">larabie-fonts-deco</packagereq>
+      <packagereq type="optional">larabie-fonts-straight</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>rpmfusion_nonfree-emulators</id>
     <_name>Emulators (RPM Fusion Nonfree)</_name>
     <_description>Various emulators for legacy computers and consoles.</_description>
