@@ -54,7 +54,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">larabie-fonts-common</packagereq>
+      <packagereq type="optional">larabie-fonts-uncommon</packagereq>
       <packagereq type="optional">larabie-fonts-deco</packagereq>
       <packagereq type="optional">larabie-fonts-straight</packagereq>
     </packagelist>

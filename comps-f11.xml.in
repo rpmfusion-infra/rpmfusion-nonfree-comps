@@ -96,9 +96,9 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">larabie-fonts-common</packagereq>
-      <packagereq type="optional">larabie-fonts-deco</packagereq>
-      <packagereq type="optional">larabie-fonts-straight</packagereq>
+      <packagereq type="optional">larabie-decorative-fonts</packagereq>
+      <packagereq type="optional">larabie-straight-fonts</packagereq>
+      <packagereq type="optional">larabie-uncommon-fonts</packagereq>
     </packagelist>
   </group>
 </comps>
