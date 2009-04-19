@@ -29,9 +29,12 @@
       <packagereq type="optional">e-uae</packagereq>
       <packagereq type="optional">Frodo</packagereq>
       <packagereq type="optional">Frodo-gui</packagereq>
+      <packagereq type="optional">fuse-emulator-roms</packagereq>
       <packagereq type="optional">gens</packagereq>
       <packagereq type="optional">mednafen</packagereq>
+      <packagereq type="optional">plus4emu</packagereq>
       <packagereq type="optional">qmc2</packagereq>
+      <packagereq type="optional">raine</packagereq>
       <packagereq type="optional">sdlmame</packagereq>
       <packagereq type="optional">sdlmame-data-artwork</packagereq>
       <packagereq type="optional">sdlmame-data</packagereq>
@@ -44,6 +47,7 @@
       <packagereq type="optional">sdlmess-data</packagereq>
       <packagereq type="optional">sdlmess-debug</packagereq>
       <packagereq type="optional">sdlmess-tools</packagereq>
+      <packagereq type="optional">snes9x</packagereq>
       <packagereq type="optional">vice</packagereq>
       <packagereq type="optional">xcpc</packagereq>
       <packagereq type="optional">yapeSDL</packagereq>
