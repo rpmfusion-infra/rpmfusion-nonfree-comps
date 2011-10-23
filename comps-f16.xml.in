@@ -60,6 +60,7 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
+      <packagereq type="optional">gstreamer-plugins-bad-nonfree</packagereq>
       <packagereq type="optional">sidplay</packagereq>
       <packagereq type="optional">uade</packagereq>
     </packagelist>
