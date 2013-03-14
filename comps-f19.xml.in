@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+    <id>core</id>
+    <_name>Core</_name>
+    <_description>Smallest possible installation</_description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">rpmfusion-nonfree-release</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>games</id>
+    <_name>Games and Entertainment</_name>
+    <_description>Various ways to relax and spend your free time.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">bsnes</packagereq>
+      <packagereq type="optional">d1x-full</packagereq>
+      <packagereq type="optional">d1x-shareware</packagereq>
+      <packagereq type="optional">doom-shareware</packagereq>
+      <packagereq type="optional">ufoai</packagereq>
+      <packagereq type="optional">xrick</packagereq>
+      <packagereq type="optional">dega-sdl</packagereq>
+      <packagereq type="optional">dgen-sdl</packagereq>
+      <packagereq type="optional">e-uae</packagereq>
+      <packagereq type="optional">Frodo</packagereq>
+      <packagereq type="optional">Frodo-gui</packagereq>
+      <packagereq type="optional">fuse-emulator-roms</packagereq>
+      <packagereq type="optional">gens</packagereq>
+      <packagereq type="optional">mednafen</packagereq>
+      <packagereq type="optional">plus4emu</packagereq>
+      <packagereq type="optional">qmc2</packagereq>
+      <packagereq type="optional">raine</packagereq>
+      <packagereq type="optional">sdlmame-data</packagereq>
+      <packagereq type="optional">snes9x</packagereq>
+      <packagereq type="optional">vice</packagereq>
+      <packagereq type="optional">xcpc</packagereq>
+      <packagereq type="optional">yapeSDL</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>sound-and-video</id>
+    <_name>Sound and Video</_name>
+    <_description>From CD recording to playing audio CDs and multimedia files, this package group allows you to work with sound and video on the system.</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">gstreamer-plugins-bad-nonfree</packagereq>
+      <packagereq type="optional">sidplay</packagereq>
+      <packagereq type="optional">uade</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>hardware-support</id>
+    <_name>Hardware Support</_name>
+    <_description>This group is a collection of tools for various hardware specific utilities.</_description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">xorg-x11-drv-catalyst</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia-173xx</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>system-tools</id>
+    <_name>System Tools</_name>
+    <_description>This group is a collection of various tools for the system, such as the client for connecting to SMB shares and tools to monitor network traffic.</_description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">jad</packagereq>
+      <packagereq type="default">lha</packagereq>
+      <packagereq type="default">unrar</packagereq>
+      <packagereq type="optional">unace</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>fonts</id>
+    <name>Fonts</name>
+    <description>Fonts packages for rendering text on the desktop.</description>
+    <default>true</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="optional">larabie-decorative-fonts</packagereq>
+      <packagereq type="optional">larabie-straight-fonts</packagereq>
+      <packagereq type="optional">larabie-uncommon-fonts</packagereq>
+    </packagelist>
+  </group>
+</comps>
