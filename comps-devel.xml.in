@@ -35,18 +35,7 @@
       <packagereq type="optional">plus4emu</packagereq>
       <packagereq type="optional">qmc2</packagereq>
       <packagereq type="optional">raine</packagereq>
-      <packagereq type="optional">sdlmame</packagereq>
-      <packagereq type="optional">sdlmame-data-artwork</packagereq>
       <packagereq type="optional">sdlmame-data</packagereq>
-      <packagereq type="optional">sdlmame-data-roms</packagereq>
-      <packagereq type="optional">sdlmame-data-samples</packagereq>
-      <packagereq type="optional">sdlmame-debug</packagereq>
-      <packagereq type="optional">sdlmame-ldplayer</packagereq>
-      <packagereq type="optional">sdlmame-tools</packagereq>
-      <packagereq type="optional">sdlmess</packagereq>
-      <packagereq type="optional">sdlmess-data</packagereq>
-      <packagereq type="optional">sdlmess-debug</packagereq>
-      <packagereq type="optional">sdlmess-tools</packagereq>
       <packagereq type="optional">snes9x</packagereq>
       <packagereq type="optional">vice</packagereq>
       <packagereq type="optional">xcpc</packagereq>
@@ -72,10 +61,10 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">Cg</packagereq>
-      <packagereq type="optional">ogre-cg</packagereq>
-      <packagereq type="optional">xorg-x11-drv-fglrx</packagereq>
+      <packagereq type="optional">xorg-x11-drv-catalyst</packagereq>
       <packagereq type="optional">xorg-x11-drv-nvidia</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia-173xx</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia-304xx</packagereq>
     </packagelist>
   </group>
   <group>
@@ -86,8 +75,8 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">jad</packagereq>
-      <packagereq type="default">lha</packagereq>
-      <packagereq type="default">unrar</packagereq>
+      <packagereq type="optional">lha</packagereq>
+      <packagereq type="optional">unrar</packagereq>
       <packagereq type="optional">unace</packagereq>
     </packagelist>
   </group>

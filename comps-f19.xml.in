@@ -64,6 +64,7 @@
       <packagereq type="optional">xorg-x11-drv-catalyst</packagereq>
       <packagereq type="optional">xorg-x11-drv-nvidia</packagereq>
       <packagereq type="optional">xorg-x11-drv-nvidia-173xx</packagereq>
+      <packagereq type="optional">xorg-x11-drv-nvidia-304xx</packagereq>
     </packagelist>
   </group>
   <group>
@@ -74,8 +75,8 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">jad</packagereq>
-      <packagereq type="default">lha</packagereq>
-      <packagereq type="default">unrar</packagereq>
+      <packagereq type="optional">lha</packagereq>
+      <packagereq type="optional">unrar</packagereq>
       <packagereq type="optional">unace</packagereq>
     </packagelist>
   </group>
