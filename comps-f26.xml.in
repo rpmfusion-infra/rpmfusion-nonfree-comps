@@ -59,9 +59,6 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">broadcom-wl</packagereq>
-      <packagereq type="optional">xorg-x11-drv-nvidia</packagereq>
-      <packagereq type="optional">xorg-x11-drv-nvidia-304xx</packagereq>
-      <packagereq type="optional">xorg-x11-drv-nvidia-340xx</packagereq>
     </packagelist>
   </group>
   <group>
