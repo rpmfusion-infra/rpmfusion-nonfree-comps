@@ -9,6 +9,7 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">rpmfusion-nonfree-release</packagereq>
+      <packagereq type="conditional" requires="appstream-data">rpmfusion-nonfree-appstream-data</packagereq>
     </packagelist>
   </group>
   <group>
