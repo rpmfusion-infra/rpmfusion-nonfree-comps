@@ -70,6 +70,7 @@
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="optional">gstreamer-plugins-bad-nonfree</packagereq>
+      <packagereq type="optional">gstreamer1-plugins-bad-nonfree</packagereq>
       <packagereq type="optional">uade</packagereq>
     </packagelist>
   </group>
