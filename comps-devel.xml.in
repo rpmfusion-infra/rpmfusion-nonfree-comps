@@ -59,7 +59,8 @@
     <default>true</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional">broadcom-wl</packagereq>
+      <packagereq arch="x86_64" type="optional">broadcom-wl</packagereq>
+      <packagereq arch="x86_64" type="conditional" requires="libva">intel-media-driver</packagereq>
     </packagelist>
   </group>
   <group>
